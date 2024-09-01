@@ -7,6 +7,8 @@
         <style>
             body {
                 font-family: "Courier New", Courier, monospace;
+                width: 95%;
+                margin: auto;
             }
             .ref {
                 font-size: 18px;
@@ -36,31 +38,50 @@
                 background-color: silver;
                 color: white;
             }
+            .img {
+                width: 30%;
+                margin: auto;
+            }
+            img {
+                width: 100%;
+            }
         </style>
     </head>
     <body>
-        <!-- Level 1 -->
-        <h1>Hello World!</h1>
-        <!-- Level 2 -->
+        <header>
+            <!-- Level 1 -->
+            <h1>Hello World!</h1>
+            <!-- Level 2 -->
+            <div class="links">
+                <a href="pages/education.html">Education</a>
+                <a href="pages/experience.html">Experience</a>
+                <a href="pages/projects.html">Projects</a>
+            </div>
+        </header>
         <hr />
-        <div class="links">
-            <a href="pages/education.html">Education</a>
-            <a href="pages/experience.html">Experience</a>
-            <a href="pages/projects.html">Projects</a>
-        </div>
+        <main>
+            <div class="img">
+                <a href="https://facebook.com/nuru.7595" target="_main">
+                    <img src="img/nuru.jpg" alt="Nuru">
+                </a>
+            </div>
+        </main>
         <!-- Refference -->
         <hr />
-        <div class="ref">
-            <p>Name: Nuru</p>
-            <p>Level 1: 31 Aug 2024</p>
-            <p>Level 2: 01 Sep 2024</p>
-            <p>Course Source: Apna College</p>
-            <p>
-                Course Link:
-                <a href="https://youtu.be/HcOc7P5BMi4?si=KyKwlhaM1lQlXw1j"
-                    >Youtube</a
-                >
-            </p>
-        </div>
+        <footer>
+            <div class="ref">
+                <p>Name: Nuru</p>
+                <p>Level 1: 31 Aug 2024</p>
+                <p>Level 2: 01 Sep 2024</p>
+                <p>Level 3: 01 Sep 2024</p>
+                <p>Course Source: Apna College</p>
+                <p>
+                    Course Link:
+                    <a href="https://youtu.be/HcOc7P5BMi4?si=KyKwlhaM1lQlXw1j"
+                        >Youtube</a
+                    >
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
