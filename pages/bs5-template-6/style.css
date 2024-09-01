@@ -1,0 +1,31 @@
+*{font-family: 'Raleway', sans-serif;}
+body,html{height:100%;}
+html{scroll-behavior:smooth;}
+.navbar a{text-transform:uppercase;color:black;padding:13px 16px !important;}
+.navbar a:hover{background:#ddd;}
+.c-header{background-image:url("images/mac.jpg");background-position:center;min-height:100%;
+    background-size:cover;position:relative;filter:grayscale(.5);
+}
+.c-center{position:absolute;top:50%;left:0;transform:translate(0,-50%)}
+.c-end{position:absolute;left:0;bottom:0;}
+.c-center a:hover{opacity:1 !important;}
+.c-end i{opacity:.5;padding:1px;}
+.c-end i:hover{opacity:.3;}
+#about .text-center i{font-size:64px;}
+#about .text-center .row p{font-size:15px;}
+.c-btn{padding:12px 16px;border:none;outline:none;cursor:pointer;background:black;}
+.c-btn-hover:hover{color:black !important;background:#ccc !important}
+.card img{filter:grayscale(.5)}
+.card a:hover{text-decoration:none;}
+#work .img-fluid{min-width:100%;}
+#work .img-fluid:hover{opacity:.6}
+#contact p i{font-size:36px}
+.c-form-control{width:100%;border:1px solid #ddd;padding:12px;}
+.c-social i{font-size:24px;padding:0 2px;}
+.c-social i:hover{opacity:.7;}
+.text-reset:hover{color:green !important}
+@keyframes zoom{
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}
+.c-display{animation-name:zoom;animation-duration:.6s;margin-top:150px;}

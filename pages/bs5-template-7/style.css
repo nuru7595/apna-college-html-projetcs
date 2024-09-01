@@ -1,0 +1,23 @@
+*{font-family: 'Poppins', sans-serif;}
+html,body{height:100%;}
+.c-fg-content{background:black;width:33%;border-radius:10px;position:absolute;top:50%;left:0;
+    transform:translate(0,-50%);opacity:.6;
+}
+button{border:none;outline:none;}
+.c-fg-content:hover{opacity:1;}
+.c-fg-content button{padding:10px 0;}
+.c-btn-hover:hover{background:#ccc !important;color:black !important;}
+.c-bg-active{display:block !important;}
+.c-fg-btn{padding:10px 16px;background:black;position:absolute;
+    top:50%;right:0;transform:translate(0,-50%);
+}
+@keyframes fade{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+.c-fade{animation-name:fade;animation-duration:1s;}
+.c-btn{padding:12px 16px;}
+.c-social i{font-size:26px;}
+.c-social i:hover{opacity:.6}
+.text-reset:hover{color:green !important}
+.c-form-control{padding:12px;width:100%;}

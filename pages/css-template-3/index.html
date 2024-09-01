@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template_3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="nav">
+                    <a href="#header"><b>B R</b>&nbsp;&nbsp; A r c h i t e c t s</a>
+                <div class="right">
+                    <a href="#projects">P r o j e c t s</a>
+                    <a href="#about">A b o u t</a>
+                    <a href="#contact">C o n t a c t</a>
+                </div>
+        </div>
+        <div class="carousel">
+            <div class="main-carousel">
+                <img src="images/header.jpg" alt="Header">
+            </div>
+            <div class="overlay">
+                    <p><span class="br">B R</span> <span class="span">Architects</span></p>
+            </div>
+        </div>
+    </div>
+<!-- header section -->
+    <div class="container">
+        <div id="projects" class="project-section">
+            <h2>Projects</h2>
+            <hr>
+            <div class="houses">
+                <div id="project">
+                    <div class="pro-1">
+                        <img src="images/1.jpg" alt="Project-1">
+                        <div class="quote">Summer House</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-2">
+                        <img src="images/2.jpg" alt="Project-2">
+                        <div class="quote">Brick House</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-3">
+                        <img src="images/3.jpg" alt="Project-3">
+                        <div class="quote">Renovated</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-4">
+                        <img src="images/4.jpg" alt="Project-4">
+                        <div class="quote">Barn House</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-5">
+                        <img src="images/5.jpg" alt="Project-5">
+                        <div class="quote">Summer House</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-6">
+                        <img src="images/6.jpg" alt="Project-6">
+                        <div class="quote">Brick House</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-7">
+                        <img src="images/7.jpg" alt="Project-7">
+                        <div class="quote">Renovated</div>
+                    </div>
+                </div>
+                <div id="project">
+                    <div class="pro-8">
+                        <img src="images/8.jpg" alt="Project-8">
+                        <div class="quote">Barn House</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Project section -->
+        <div id="about" class="about-section">
+            <h2>About</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="profiles">
+                <div class="profile-1">
+                    <img src="images/p1.jpg" alt="Profile-1">
+                    <h2 id="g1">John Doe</h2>
+                    <p class="sub-title" id="g2">CEO & Founder</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button onclick="showFunction(this)">Contact</button>
+                </div>
+                <div class="profile-2">
+                    <img src="images/p2.jpg" alt="Profile-2">
+                    <h2 id="g1">Jane Doe</h2>
+                    <p class="sub-title" id="g2">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button onclick="showFunction(this)">Contact</button>
+                </div>
+                <div class="profile-3">
+                    <img src="images/p3.jpg" alt="Profile-3">
+                    <h2 id="g1">Mike Ross</h2>
+                    <p class="sub-title" id="g2">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button onclick="showFunction(this)">Contact</button>
+                </div>
+                <div class="profile-4">
+                    <img src="images/p4.jpg" alt="Profile-4">
+                    <h2 id="g1">Dan Star</h2>
+                    <p class="sub-title" id="g2">Architect</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button onclick="showFunction(this)">Contact</button>
+                </div>
+            </div>
+        </div>
+<div class="float">
+    <div class="float-form">
+        <form action="javascript:void(0)">
+            <h2 id="s1"></h2>
+            <p class="sub-title" id="s2"></p>
+            <div class="form-name">
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-email">
+                <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+            <div class="form-subject">
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-comment">
+                <input type="text" name="comment" id="comment" placeholder="Your opinion" required>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Send message">
+                <input onclick="closeFunction()" type="button" value="Cancel">
+            </div>
+        </form>
+    </div>
+</div>
+    <!-- about section -->
+        <div id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <hr>
+            <p>Lets get in touch and talk about your next project.</p>
+            <div class="form">
+                <form action="javascript:void(0)">
+                    <div class="form-name">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-email">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-subject">
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-comment">
+                        <input type="text" name="comment" id="comment" placeholder="Comment" required>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send message">
+                    </div>
+                </form>
+            </div>
+        </div>
+    <!-- contact section -->
+    <div class="img">
+        <img src="images/footer.jpg" alt="Footer">
+    </div>
+    </div>
+    <footer>
+            <p>Powered by <a href="https://www.w3schools.com/css" title="W3schools.com" target="_blank">W3.css</a>.</p>
+    </footer>
+<script src="js.js"></script>
+</body>
+</html>

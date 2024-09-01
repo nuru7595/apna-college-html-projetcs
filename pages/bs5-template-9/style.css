@@ -1,0 +1,29 @@
+*{font-family: 'Roboto', sans-serif;}
+.hover-1:hover{background:#ccc;color:black !important;}
+.hover-2:hover,.navbar-toggler:hover{background:#f1f1f1;color:black !important;}
+.navbar-toggler:focus{outline:none !important;}
+.hover-3:hover{background:green;}
+.header>a{position:absolute;bottom:0;left:0;background:black;font-size:28px;}
+.header>a:hover{background:#009688;color:white;}
+.c-btn{border:none;outline:none;padding:10px 16px;cursor:pointer;}
+.c-btn-hover:hover{background:#ccc !important;color:black !important;}
+.c-close{position:absolute;top:0;right:0;}
+#work>button{position:absolute;right:32px;bottom:-27px;font-size:32px;padding:5px 18px;}
+#work>button:focus{outline:none;}
+.list-group-item span{display:block;font-size:32px;}
+.list-group:hover{box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;}
+@keyframes fade{
+    from{opacity:0;}
+    to{opacity:1}
+}
+.header img{animation-name:fade;animation-duration:.6s;}
+.hr{border-top:7px solid #009688;width:140px;}
+#contact i{color:#009688;font-size:24px;margin-right:8px;}
+.form-control{border:none;border-bottom:1px solid #ddd;}
+.w3css:hover{color:green !important;}
+.c-top{position:absolute;top:50%;right:30px;transform:translate(0,-50%);font-size:24px;}
+@keyframes slide{
+    from{width:0px}
+    to{width:300px}
+}
+.c-side-nav{animation-name:slide;animation-duration:1s;}

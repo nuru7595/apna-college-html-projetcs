@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template_5</title>
+    <script src="https://kit.fontawesome.com/8a7f147395.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <p>Welcome to the blog of <span class="name">Unknown</span></p>
+    </header>
+    <div class="section">
+        <div class="blogs">
+            <div class="blog blog-active">
+                <img src="images/b-1.jpg" alt="Blog Picture">
+                <div class="details">
+                    <h2 class="title">TITLE HEADING</h2>
+                    <p class="b-sub-title">Title description, <span class="date">April 7, 2014</span></p>
+                    <p class="description">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <div class="float">
+                    <button class="b-button" onclick="showComments(this)">Read more <i class="fas fa-angle-double-right"></i></button>
+                    <div class="b-comment f-right">Comments <span class="c-count"></span></div>
+                    </div>
+                    <div class="comments"><br>
+                        <hr><br>
+                        <div class="comment"></div>
+                        <form class="addcomment">
+                            <input type="text" id="wc" placeholder="Write a comment here..." required>
+                            <button type="button" id="abc" onclick="addComment(this)">Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="blog blog-active">
+                <img src="images/b-2.jpg" alt="Blog Picture">
+                <div class="details">
+                    <h2 class="title">BLOG ENTRY</h2>
+                    <p class="b-sub-title">Title description, <span class="date">April 2, 2014</span></p>
+                    <p class="description">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <div class="float">
+                        <button class="b-button" onclick="showComments(this)">Read more <i class="fas fa-angle-double-right"></i></button>
+                        <div class="f-right">Comments <span class="c-count"></span></div>
+                    </div>
+                    <div class="comments"><br>
+                        <hr><br>
+                        <div class="comment">
+                            <div class="c-blk">
+                                Comment - 1
+                            </div>
+                            <div class="c-blk">
+                                Comment - 2
+                            </div>
+                            <div class="c-blk">
+                                Comment - 3
+                            </div>
+                        </div>
+                        <form class="addcomment">
+                            <input type="text" id="wc" placeholder="Write a comment here..." required>
+                            <button type="button" onclick="addComment(this)">Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="images/b-1.jpg" alt="Blog Picture">
+                <div class="details">
+                    <h2 class="title">TITLE HEADING</h2>
+                    <p class="b-sub-title">Title description, <span class="date">April 7, 2014</span></p>
+                    <p class="description">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <div class="float">
+                    <button class="b-button" onclick="showComments(this)">Read more <i class="fas fa-angle-double-right"></i></button>
+                    <div class="b-comment f-right">Comments <span class="c-count"></span></div>
+                    </div>
+                    <div class="comments"><br>
+                        <hr><br>
+                        <div class="comment"></div>
+                        <form class="addcomment">
+                            <input type="text" id="wc" placeholder="Write a comment here..." required>
+                            <button type="button" id="abc" onclick="addComment(this)">Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="images/b-2.jpg" alt="Blog Picture">
+                <div class="details">
+                    <h2 class="title">BLOG ENTRY</h2>
+                    <p class="b-sub-title">Title description, <span class="date">April 2, 2014</span></p>
+                    <p class="description">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <div class="float">
+                        <button class="b-button" onclick="showComments(this)">Read more <i class="fas fa-angle-double-right"></i></button>
+                        <div class="f-right">Comments <span class="c-count"></span></div>
+                    </div>
+                    <div class="comments"><br>
+                        <hr><br>
+                        <div class="comment">
+                            <div class="c-blk">
+                                Comment - 1
+                            </div>
+                            <div class="c-blk">
+                                Comment - 2
+                            </div>
+                            <div class="c-blk">
+                                Comment - 3
+                            </div>
+                        </div>
+                        <form class="addcomment">
+                            <input type="text" id="wc" placeholder="Write a comment here..." required>
+                            <button type="button" onclick="addComment(this)">Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="images/b-1.jpg" alt="Blog Picture">
+                <div class="details">
+                    <h2 class="title">TITLE HEADING</h2>
+                    <p class="b-sub-title">Title description, <span class="date">April 7, 2014</span></p>
+                    <p class="description">Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <div class="float">
+                    <button class="b-button" onclick="showComments(this)">Read more <i class="fas fa-angle-double-right"></i></button>
+                    <div class="b-comment f-right">Comments <span class="c-count"></span></div>
+                    </div>
+                    <div class="comments"><br>
+                        <hr><br>
+                        <div class="comment"></div>
+                        <form class="addcomment">
+                            <input type="text" id="wc" placeholder="Write a comment here..." required>
+                            <button type="button" id="abc" onclick="addComment(this)">Comment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-about">
+                <img src="images/me.jpg" alt="About Picture">
+                <div class="details">
+                    <h3 class="title name">My Name</h3>
+                    <p class="description">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                </div>
+                </div>
+            <div class="sidebar-posts">
+                <h3 class="title">Popular posts</h3>
+                <div class="post-1">
+                    <div class="left">
+                        <img src="images/p-1.jpg" alt="Post Pic">
+                    </div>
+                    <div class="right">
+                        <h4>Lorem</h4>
+                        <p>Sed mattis nunc</p>
+                    </div>
+                </div>
+                <div class="post-2">
+                    <div class="left">
+                        <img src="images/p-2.jpg" alt="Post pic">
+                    </div>
+                    <div class="right">
+                        <h4>Ipsum</h4>
+                        <p>Praes tinci sed</p>
+                    </div>
+                </div>
+                <div class="post-3">
+                    <div class="left">
+                        <img src="images/p-3.jpg" alt="Post pic">
+                    </div>
+                    <div class="right">
+                        <h4>Dorum</h4>
+                        <p>Ultricies congue</p>
+                    </div>
+                </div>
+                <div class="post-4">
+                    <div class="left">
+                        <img src="images/p-4.jpg" alt="Post pic">
+                    </div>
+                    <div class="right">
+                        <h4>Mingsum</h4>
+                        <p>Lorem ipsum dipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-tags">
+                <h3 class="title">Tags</h3>
+                <div class="details">
+                    <span class="tag active-tag">Travel</span>
+                    <span class="tag">New York</span>
+                    <span class="tag">London</span>
+                    <span class="tag">IKEA</span>
+                    <span class="tag">NORWAY</span>
+                    <span class="tag">DIY</span>
+                    <span class="tag">Ideas</span>
+                    <span class="tag">Baby</span>
+                    <span class="tag">Family</span>
+                    <span class="tag">News</span>
+                    <span class="tag">Clothing</span>
+                    <span class="tag">Shopping</span>
+                    <span class="tag">Sports</span>
+                    <span class="tag">Games</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <button id="p-btn" onclick="previousFunction()"><i class="fas fa-angle-double-left"></i> Previous</button>
+        <button id="n-btn" onclick="nextFunction()">Next <i class="fas fa-angle-double-right"></i></button>
+        <p>Powered by <a href="https://www.w3schools.com/css" title="w3.css" target="_blank">w3.css</a>.</p>
+    </footer>
+<script src="js.js"></script>
+</body>
+</html>

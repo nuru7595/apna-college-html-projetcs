@@ -1,0 +1,69 @@
+*{margin:0;padding:0;font-family:"Raleway",sans-serif;box-sizing: border-box;}
+img{width:100%;height:auto;display:block;}
+body,html{height:100%;}
+/* Comment */
+#home{background-image:url("images/header.jpg")}
+#invitation{background-image:url("images/invitation.jpg");}
+.bg-content{height:100%;min-height: 100%;background-position: center;
+    background-size: cover;position:relative;
+}
+.fg-content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    text-align:center;color:white;letter-spacing: 5px;
+}
+.fg-content h1{font-size:70px}
+.fg-content p{font-size:25px;padding:20px}
+.fg-content h4{font-size:30px}
+/* Comment */
+.container{max-width:1100px;margin:auto;}
+body{background:#F2E1E1;}
+[class^="sec-"]{padding: 50px 15px;}
+[class^="sec-"]>h2{font-size:35px;text-align:center;padding:30px 0 50px;opacity:.7}
+.img img{border-radius:5px}
+.paragraph{padding:35px 0;line-height:30px}
+.button{text-align: center;}
+.button a{text-decoration: none;padding:16px 24px;color:white;background:black;
+    display:inline-block;font-size:18px;border-radius:3px;
+}
+.button a:hover{color:black;background:#CCCCCC}
+/* Comment */
+.ww{padding:50px 0 0;text-align:center;display:flex;flex-flow:nowrap row}
+.when,.where{flex:50%;line-height: 50px;}
+.sec-3{text-align:center;background:#FFDDDD;letter-spacing:5px;padding:70px 0}
+.sec-3 h1{opacity:.7;}
+.sec-3 p{padding:40px 0;font-size:18px}
+.sec-3 button{font-size:26px;padding:14px 65px;border:none;color:white;
+    background:#F44336;cursor: pointer;border-radius:3px;
+}
+.sec-3 button:hover{color:black;background:#CCCCCC}
+/* Comment */
+footer{text-align:center;background:black;color:white;padding:50px 0;
+    letter-spacing: 2px;
+}
+footer a{color:white;}
+footer a:hover{color:green;}
+/* Comment */
+.nav{position:sticky;bottom:0;background: white;display:flex;flex-flow: nowrap row;
+    justify-content: space-around;padding: 10px 5px;opacity: .75;
+}
+.nav:hover{opacity:1;}
+.nav a{text-decoration:none;color:rgb(134, 134, 134);padding: 12px 7%;border-radius:2px}
+.nav a:hover{background:#ccc;color:black;}
+@media only screen and (max-width:600px){.nav{display:none;}.ww{flex-direction: column;}}
+.float{position:fixed;top:0;left:0;background:rgb(0, 0, 0, .6);padding:12px;
+    height:100%;width:100%;z-index:2;
+}
+@keyframes zoom{
+    from{transform:scale(0);}
+    to{transform:scale(1);}
+}
+.rsvp{max-width:600px;margin:auto;margin-top:100px;background:white;padding:32px;
+    border-radius:1px;animation:zoom .6s;
+}
+.rsvp h1{font-weight: normal;text-align:center;font-size:40px;text-transform:uppercase;}
+.rsvp p{padding:24px 0;text-align:center;}
+.rsvp input{padding:12px;border:1px solid #ddd;width:100%;border-radius:2px;}
+.rsvp::after{content:"";display:table;clear:both;}
+.rsvp button{width:50%;padding:12px 0;border:none;float:left;font-size:17px;color:white;
+    cursor:pointer;
+}
+.rsvp button:hover{background:#ccc !important;color:black;}

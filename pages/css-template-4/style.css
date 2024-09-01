@@ -1,0 +1,11 @@
+*{margin:0;padding:0;font-family: "Raleway", sans-serif;box-sizing: border-box;}
+.container{color:white;background-image:url("images/fb.jpg");background-position:center;background-size:cover;min-height: 100%;}
+body,html{height:100%;}
+.logo{position:absolute;top:20px;left:20px;font-size:25px;}
+.p-b{position: absolute;left:20px;bottom:20px;}
+.c-s{position: absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.c-s h1{font-size:50px;padding:20px;}
+.c-s p{text-align: center;font-size:20px;padding:20px;}
+hr {width:50%;margin:auto;}
+.p-b a{color:white;}
+.p-b a:hover{color:green;}

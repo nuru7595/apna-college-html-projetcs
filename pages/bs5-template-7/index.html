@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 27</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');</style>
+    <script src="https://kit.fontawesome.com/7676176bef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div style="position:relative;background:black;">
+        <div class="c-fade d-none c-bg c-bg-active" style="position:relative;">
+            <button type="button" data-toggle="modal" data-target="#modal" class="c-btn-hover btn-block text-white py-2 d-md-none" style="background:#4CAF50">Download
+                <i class="fa fa-android"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-windows"></i>
+            </button>
+            <img src="images/bg1.jpg" alt="App1" class="img-fluid w-100">
+            <div class="c-fg-content text-white text-center p-4 mx-3 d-none d-md-block">
+                <h4 class="py-2">Take photos with our app</h4>
+                <hr class="border-top">
+                <p class="pt-2">Super simple installment: free of charge</p>
+                <button type="button" data-toggle="modal" data-target="#modal" class="c-btn-hover btn-block text-white rounded" style="background:#4CAF50">Download
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-apple"></i>
+                    <i class="fa fa-windows"></i>
+                </button>
+            </div>
+        </div>
+        <div class="c-fade d-none c-bg" style="position:relative;">
+            <button type="button" data-toggle="modal" data-target="#modal" class="c-btn-hover btn-block text-white py-2 d-md-none" style="background:#f44336">Download
+                <i class="fa fa-android"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-windows"></i>
+            </button>
+            <img src="images/bg1.jpg" alt="App1" class="img-fluid w-100">
+            <div class="c-fg-content text-white text-center p-4 mx-3 d-none d-md-block">
+                <h4 class="py-2" style="color:#f44336">CLICK! Fast and Easy</h4>
+                <hr class="border-top">
+                <p class="pt-2">Choose from thousands of features</p>
+                <button type="button" data-toggle="modal" data-target="#modal" class="c-btn-hover btn-block text-white rounded" style="background:#f44336">Download
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-apple"></i>
+                    <i class="fa fa-windows"></i>
+                </button>
+            </div>
+        </div>
+        <div class="c-fade d-none c-bg" style="position:relative;">
+            <button type="button" data-toggle="modal" data-target="#modal" class="c-btn-hover btn-block text-white py-2 d-md-none" style="background:#3f51b5">Download
+                <i class="fa fa-android"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-windows"></i>
+            </button>
+            <img src="images/bg1.jpg" alt="App1" class="img-fluid w-100">
+            <div class="c-fg-content text-white text-center p-4 mx-3 d-none d-md-block">
+                <h4 class="py-2">Smart Design</h4>
+                <hr class="border-top">
+                <p class="pt-2">Customize photos as you go</p>
+                <button type="button" data-toggle="modal" data-target="#modal" class="c-btn-hover btn-block text-white rounded" style="background:#3f51b5">Download
+                    <i class="fa fa-android"></i>
+                    <i class="fa fa-apple"></i>
+                    <i class="fa fa-windows"></i>
+                </button>
+            </div>
+        </div>
+        <button type="button" class="d-none d-md-block c-btn-hover mx-3 c-fg-btn text-white rounded takeTour">Take tour ></button>
+        <button type="button" class="d-md-none c-btn-hover btn-block text-white py-2 takeTour" style="background:black;">Take tour ></button>
+    </div>
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content p-4">
+                <div class="modal-header border-0">
+                    <h3 class="modal-title" style="letter-spacing:2px;">DOWNLOAD</h3>
+                    <button class="close c-btn-hover" style="opacity:1;" type="button" data-dismiss="modal">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body pt-0">
+                    <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+                    <p>
+                        <i class="fa fa-android" style="font-size:24px;"></i>
+                        <i class="fa fa-apple" style="font-size:24px;"></i>
+                        <i class="fa fa-windows" style="font-size:24px;"></i>
+                    </p>
+                    <form action="javascript:void(0)">
+                        <input type="email" class="border c-form-control mb-3" name="email" id="email" placeholder="Enter e-mail" required>
+                        <button type="submit" class="btn-block text-white c-btn c-btn-hover" style="background:#F44336">Fake Download</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5">
+        <div class="row py-5">
+            <div class="col-md-6 col-lg-8">
+                <h1>The App</h1>
+                <h2 style="color:#4CAF50" class="pt-2 pb-3">Why buy it?</h2>
+                <p><span style="font-size:24px;">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button style="background:#f1f1f1;" data-toggle="modal" data-target="#modal" class="c-btn c-btn-hover my-3 d-none d-md-block"><i class="fa fa-download"></i> Download Application</button>
+                <p class="pt-2">Available for
+                    <i style="font-size:24px;color:#4CAF50" class="fa fa-android px-1"></i>
+                    <i style="font-size:24px;" class="fa fa-apple px-1"></i>
+                    <i style="font-size:24px;color:#2196F3" class="fa fa-windows px-1"></i>
+                </p>
+                <button style="background:transparent;" data-toggle="modal" data-target="#modal" class="c-btn c-btn-hover my-3 btn-block d-md-none"><i class="fa fa-download"></i> Download Application</button>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <img src="images/img_app.jpg" alt="App" class="img-fluid mx-auto d-block">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5" style="background:#f1f1f1">
+        <div class="row py-5">
+            <div class="col-md-6 col-lg-4 d-none d-md-block">
+                <img src="images/app5.jpg" alt="App" class="img-fluid mx-auto d-block">
+            </div>
+            <div class="col-md-6 col-lg-8">
+                <h1 class="font-weight-bold display-3 pt-md-4">Clarity</h1>
+                <h2 style="color:#f44336;font-size:42px;" class="pt-2 pb-3 font-weight-bold">Pixels, who?</h2>
+                <p><span style="font-size:24px;">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary py-5 text-center text-white">
+        <h1 class="display-3 font-weight-bold pb-3 pt-5">Features</h1>
+        <p>This app is just so lorem ipsum.</p>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col">
+                    <i class="fa fa-bolt" style="font-size:64px;color:orange"></i>
+                    <p class="pt-3">Fast</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-heart" style="font-size:64px;color:red"></i>
+                    <p class="pt-3">Loved</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-camera" style="font-size:64px;color:yellow"></i>
+                    <p class="pt-3">Clarity</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-battery-full" style="font-size:64px;color:green"></i>
+                    <p class="pt-3">Power</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <i class="fa fa-diamond" style="font-size:64px;"></i>
+                    <p class="pt-3">Sharp</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-cloud" style="font-size:64px;color:#2196F3"></i>
+                    <p class="pt-3">Cloud</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-globe" style="font-size:64px;color:#ffc107"></i>
+                    <p class="pt-3">Global</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-hdd-o" style="font-size:64px;color:#00bcd4"></i>
+                    <p class="pt-3">Storage</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <i class="fa fa-user" style="font-size:64px;"></i>
+                    <p class="pt-3">Safe</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-shield" style="font-size:64px;color:orange"></i>
+                    <p class="pt-3">Stabile</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-wifi" style="font-size:64px;color:#ddd"></i>
+                    <p class="pt-3">Connected</p>
+                </div>
+                <div class="col">
+                    <i class="fa fa-image" style="font-size:64px;color:#e91e63"></i>
+                    <p class="pt-3">HD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 text-center">
+        <h1 class="display-3 font-weight-bold pb-3 pt-5">Pricing</h1>
+        <p>Choose a pricing plan that fits your needs.</p>
+        <div class="container-fluid">
+            <div class="row py-4">
+                <div class="col-sm">
+                    <ul class="list-group shadow">
+                        <li class="list-group-item bg-secondary text-white py-5">
+                            <h4>Basic</h4>
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>250</strong> Photos
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>10</strong> Features
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>No</strong> Ads
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>Office hours</strong> Support
+                        </li>
+                        <li class="list-group-item py-3 text-muted">
+                            <span style="font-size:32px;">$ 25</span>
+                        </li>
+                        <li class="list-group-item py-4">
+                            <button class="c-btn c-btn-hover text-white" data-toggle="modal" data-target="#modal" style="background:black;"><i class="fa fa-download"></i> Download</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm pt-4 pt-sm-0">
+                    <ul class="list-group shadow">
+                        <li class="list-group-item text-white py-5" style="background:#F44336">
+                            <h4>Premium</h4>
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>1000</strong> Photos
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>50</strong> Features
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>No</strong> Ads
+                        </li>
+                        <li class="list-group-item py-3">
+                            <strong>Endless</strong> Support
+                        </li>
+                        <li class="list-group-item py-3 text-muted">
+                            <span style="font-size:32px;">$ 99</span>
+                        </li>
+                        <li class="list-group-item py-4">
+                            <button class="c-btn c-btn-hover text-white" data-toggle="modal" data-target="#modal" style="background:black;"><i class="fa fa-download"></i> Download</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 text-center" style="background:#f1f1f1">
+        <div class="c-social mt-3">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-snapchat"></i>
+            <i class="fa fa-pinterest-p"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p class="my-3">Powered by <a href="https://www.w3schools.com/css" title="W3.css" target="_blank" class="text-reset" style="text-decoration:underline">w3.css</a></p>
+    </div>
+</body>
+</html>

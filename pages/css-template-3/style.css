@@ -1,0 +1,57 @@
+*{margin:0;padding:0;font-family:Verdana, Geneva, Tahoma, sans-serif;box-sizing:border-box;}
+img{width:100%;height:auto;}
+/* default css */
+.right{float:right;}
+.nav::after{content:"";display:table;clear:both;}
+.nav{padding:7px 20px;position:fixed;width:100%;top:0;z-index: 1;background:white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.nav a{padding:11px 20px;text-decoration:none;color:black;display:inline-block;}
+.nav a:hover{background:#ccc;}
+/* nav bar css */
+.carousel{position:relative;}
+.overlay{position: absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.overlay p{color:white;font-size:32px;}
+.br{font-weight: bold;background:black;padding:10px 12px;}
+/* header css */
+.container{width:95%;margin:0 auto;}
+[class$="-section"]{margin:60px 0;}
+[class$="-section"] h2{padding:20px 0;font-weight: normal;}
+hr {margin-bottom:30px;border-top:1px solid rgb(238, 238, 238);}
+[class^="pro-"]{position:relative;}
+.quote{position:absolute;top:0;left:0;background:black;color:white;padding:10px 20px;}
+#project{padding:10px;width:25%;float:left;}
+.houses::after{content:"";display:table;clear:both;}
+/* css for about */
+.profiles{display:flex;margin-top:40px;flex-wrap: wrap;}
+[class^="profile-"]{flex:25%;padding:10px;}
+[class^="profile-"] h2{padding:10px 0;font-weight: normal;}
+[class^="profile-"] p{padding:10px 0;}
+.sub-title{color:rgb(141, 137, 137);}
+[class^="profile-"] button{font-size: 17px;width:100%;text-align: center;padding:12px 0;
+    border:none;outline:none;cursor:pointer;margin-top:10px;
+}
+button:hover{background:#ccc}
+/* css for profiles */
+.form{margin-top:20px;}
+[class^="form-"]>input{width:100%;padding:10px 20px;margin:5px 0;font-size: 17px;}
+[type="submit"],[type="button"]{margin-top:20px;padding:10px 20px;font-size: 17px;border:none;
+    background:black;color:white;cursor: pointer;
+}
+[type="submit"]:hover,[type="button"]:hover{background:#ccc;color:black;}
+footer{background:black;margin-top:5px;}
+footer p{padding:30px 0;text-align: center;color:white;}
+footer p a{color:white;}
+footer p a:hover{color:green;}
+@media only screen and (max-width:992px){#project{width:50%;float:left;}
+    [class^="profile-"]{flex:50%;}
+}
+@media only screen and (max-width:768px){.span,.right{display:none;}}
+@media only screen and (max-width:600px){#project{width:100%;float:none;}
+    .profiles{flex-direction: column;}[class^="profile-"]{padding-bottom:20px;}
+    [class^="profile-"]:last-child{padding-bottom:0;}
+}
+.float{position:fixed;top:0;left:0;height:100%;width:100%;background:rgb(0,0,0,.6);z-index:2;display:none;}
+.float-form{max-width:700px;margin:auto;padding:0 16px;background:white;margin-top:15%;border-radius:3px;}
+.float-form h2, .float-form p {text-align:center;padding:8px;}
+.float-form form{padding:16px 0;}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7676176bef.js" crossorigin="anonymous"></script>
+    <title>Template_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- body section -->
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a href="javascript:void(0)">My Art</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="gallery">
+            <div class="left">
+                <img onclick="show(this.alt)" src="images/pic1.jpg" alt="1">
+                <img onclick="show(this.alt)" src="images/pic3.jpg" alt="3">
+                <img onclick="show(this.alt)" src="images/pic5.jpg" alt="5">
+            </div>
+            <div class="right">
+                <img onclick="show(this.alt)" src="images/pic2.jpg" alt="2">
+                <img onclick="show(this.alt)" src="images/pic4.jpg" alt="4">
+            </div>    
+        </div>
+    </header>
+<div class="displayer">
+    <div class="previous">
+        <button class="alter" onclick="backward()"><i class="fas fa-backward"></i></button>
+    </div>
+        <div class="display">
+            <img src="images/pic1.jpg" alt="1" class="img">
+            <img src="images/pic2.jpg" alt="2" class="img">
+            <img src="images/pic3.jpg" alt="3" class="img">
+            <img src="images/pic4.jpg" alt="4" class="img">
+            <img src="images/pic5.jpg" alt="5" class="img">
+        </div>
+    <div class="next">
+        <button class="alter" onclick="forward()"><i class="fas fa-forward"></i></button>
+        <button class="close-btn" onclick="closeViewer()"><i class="fas fa-times"></i></button>
+    </div>
+</div>
+<!-- header section -->
+<div class="section">
+    <center>
+        <div class="container">
+            <div class="about" id="about">
+                <div class="about-title">
+                    <h1>About</h1>
+                </div>
+                <div class="about-img">
+                    <img src="images/about.jpg" alt="About">
+                </div>
+                <div class="about-description">
+                    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+        <!-- about section -->
+            <div class="contact">
+                <div class="contact-title">
+                    <p>Do not hesitate to contact me!</p>
+                </div>
+                <div class="contact-form">
+                    <div class="contact-name">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="contact-email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="contact-msg">
+                        <label for="msg">Message</label>
+                        <input type="text" name="msg" id="msg">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        <!-- contact section -->
+            <footer>
+                Powered by <a href="w3schools.com/css">w3.css</a>.
+            </footer>
+        </div>
+    </center>
+</div>
+<!-- body section -->
+<script src="js.js"></script>
+</body>
+</html>

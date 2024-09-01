@@ -1,0 +1,25 @@
+*{font-family: 'Lato', sans-serif;}
+html{scroll-behavior:smooth;}
+.nav-link{font-size:18px;}
+.nav-link:hover{background:#ccc;}
+.carousel-caption{background:white;color:black;padding:10px 16px;animation-name:c-cc-animation;animation-duration:.3s}
+.c-cc-1{top:5%;left:3%;bottom:unset;right:unset;}
+.c-cc-2{top:50%;left:50%;transform:translate(-50%,-50%);bottom:unset;right:unset;}
+.c-cc-3{top:5%;left:unset;bottom:unset;right:3%;}
+@keyframes c-cc-animation{
+    from{margin-top:300px;opacity:0;}
+    to{margin-top:0px;opacity:1;}
+}
+.carousel-indicators{position:static;margin:7px 0 0 0;display:block;}
+.carousel-indicators span{padding:7px;display:inline-block;}
+.carousel-indicators span.active{background:white;}
+.carousel a{color:white;font-size:22px;}
+.hr{border-top:6px solid #616161;width:180px;}
+.c-btn{border:none;outline:none;padding:8px 16px;}
+.c-btn-hover:hover{background:#ccc !important;color:black !important;}
+.list-group:hover{box-shadow:0 .5rem 1rem rgba(0,0,0,.15);}
+.list-group span{display:block;font-size:24px;font-weight:bold}
+.c-form-control{width:100%;padding:8px;border-color:#ccc !important;}
+.c-social i{font-size:22px;}
+.c-social i:hover{opacity:.6;}
+.text-reset:hover{color:green !important;}

@@ -1,0 +1,54 @@
+*{margin:0;padding:0;font-family:"arial";box-sizing:border-box;}
+ul{list-style:none;}
+li:first-child{float:left;text-transform: uppercase;}
+li:last-child{float:right;}
+ul::after{content:"";display:table;clear:both;}
+li>a{font-size:22px;text-decoration:none;padding:12px 30px;color:#000;background:#fff;}
+li>a:hover{background:#ccc;}
+.nav{margin: 30px 15px;}
+/* css for gallery */
+img{width:100%;height:auto;}
+.gallery{display:flex;flex-direction:column;}
+.gallery img{margin-bottom:-4px;cursor:pointer;}
+.left,.right{flex:50%;}
+.container{width:60%;margin:auto;}
+.section{background:#F1F1F1;}
+/* about section */
+.about-title h1{padding:36px 0;}
+.about-img{max-width:400px;margin:auto;padding:20px;}
+.about-description{padding:12px 0;}
+.about-description p{color:#635b5b;font-size:16px;}
+.contact-title p{color:hotpink;font-size:18px;padding:15px;}
+input{width:100%;padding:10px;border:1px solid #ccc;}
+label{font-weight: bold;color:#423737;}
+[type="submit"]{background:#616161;color:white;cursor: pointer;}
+[type="submit"]:hover{background:#ccc;color:black;}
+[class^="contact-"]{margin:15px 0;}
+footer{padding:20px 0 50px;color:#616161;}
+footer a{color:#616161;}
+footer a:hover{color:green;}
+@media only screen and (min-width:600px){
+    .gallery{flex-direction:row;}
+    .about-description p{font-size:17px;}
+    li>a{font-size:26px;}
+    .alter{display:block !important}
+}
+.displayer{position:fixed;top:0;left:0;width:100%;height:100%;background:rgb(0,0,0,.8);
+    display:none;
+}
+.close-btn{position:absolute;top:0;right:0;border:none;background:red;
+    padding:12px 16px;font-size:22px;cursor:pointer;color:white;
+}
+.close-btn:hover{background:#ddd;color:black;}
+.displayer::after{content:"";display:table;clear:both;}
+.previous,.next{width:10%;height:100%;float:left;position: relative;}
+.display{float:left;width:80%;height:100%;position:relative;}
+.display img{position:absolute;top:50%;transform:translate(0%,-50%);color:white;
+    max-height: 100%;
+}
+.alter{position:absolute;top:50%;left:50%;background:#ddd;transform: translate(-50%,-50%);
+    padding:16px 18px;background:rgb(163, 163, 163);color:white;border:none;
+    border-radius:3px;cursor:pointer;display:none;
+}
+.alter i{font-size:22px;}
+.img{display:none;}

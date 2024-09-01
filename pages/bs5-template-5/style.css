@@ -1,0 +1,15 @@
+*{font-family: 'Montserrat', sans-serif;}
+.nav-link,.navbar-brand{font-size:20px;color:white;padding:10px 24px !important;}
+.nav-link:hover,.navbar-toggler:hover{color:black !important;background:white !important;}
+.navbar-brand{background:white;color:black !important;}
+.navbar-brand:hover{background:#ccc;}
+.navbar-toggler{border-radius:0;padding:14px 16px;}
+@media only screen and (max-width:576px){
+    .nav-link{background:white;color:black;}
+    .nav-link:hover{background:#ccc !important;}
+}
+.c-btn{padding:14px 32px;background:black;color:white;border:none;outline:none;}
+.c-btn-hover:hover{background:#ccc !important;color:black !important;}
+.c-social i{opacity:.7}
+.c-social i:hover{opacity:.4}
+a:last-child:hover{color:green !important;}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 22</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');</style>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body style="background:#f7f5f2">
+    <div class="bg-dark sticky-top">
+        <ul class="nav nav-justified">
+            <li class="nav-item"><a href="#" class="nav-link m-2 text-white hover">HOME</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link m-2 text-white hover">ABOUT</a></li>
+            <li class="nav-item"><a href="#menu" class="nav-link m-2 text-white hover">MENU</a></li>
+            <li class="nav-item"><a href="#where" class="nav-link m-2 text-white hover">WHERE</a></li>
+        </ul>
+    </div>
+    <!-- Sticky Nav bar -->
+    <div class="w-100 c-header text-white">
+        <div class="c-text-left bg-dark p-1 m-3">
+            <span>Open from 6am to 5pm</span>
+        </div>
+        <div class="c-text-center text-center">
+            <span style="font-size:90px">the<br>cafe</span>
+        </div>
+        <div class="c-text-right m-3 p-1">
+            <span>15 Adr street, 5015</span>
+        </div>
+    </div>
+    <!-- Header -->
+    <div class="mx-auto px-3" style="max-width:700px;">
+        <div id="about" class="pt-4">
+            <h5 class="text-center my-5">
+                <span class="text-white bg-dark p-1" style="letter-spacing:3px;">ABOUT THE CAFE</span>
+            </h5>
+            <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+            <div class="bg-light p-4" style="border-left:5px solid #ccc">
+                <p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                <p>Chef, Coffeeist and Owner: Liam Brown</p>
+            </div>
+            <div class="my-4">
+                <img src="images/about.jpg" alt="About Image" class="img-fluid">
+            </div>
+            <p><strong>Opening hours:</strong> everyday form 6am to 5pm.</p>
+            <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+        </div>
+        <div id="menu" class="pt-4">
+            <h5 class="text-center my-5">
+                <span class="text-white bg-dark p-1" style="letter-spacing:3px;">THE MENU</span>
+            </h5>
+            <div class="shadow">
+                <div class="shadow px-3 py-2">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item">
+                            <a href="#menu1" class="nav-link active" data-toggle="pill">Eat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu2" class="nav-link" data-toggle="pill">Drink</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content px-3 py-4">
+                    <div id="menu1" class="tab-pane active">
+                        <p class="pt-5"><strong>Bread Basket</strong></p>
+                        <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                        <p class="pt-5"><strong>Honey Almond Granola with Fruits</strong></p>
+                        <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                        <p class="pt-5"><strong>Belgian Waffle</strong></p>
+                        <p>Vanilla flavored batter with malted flour 7.50</p>
+                        <p class="pt-5"><strong>Scrambled eggs</strong></p>
+                        <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                        <p class="pt-5"><strong>Blueberry Pancakes</strong></p>
+                        <p>With syrup, butter and lots of berries 8.50</p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <p class="pt-5"><strong>Coffee</strong></p>
+                        <p>Regular coffee 2.50</p>
+                        <p class="pt-5"><strong>Chocolato</strong></p>
+                        <p>Chocolate espresso with milk 4.50</p>
+                        <p class="pt-5"><strong>Corretto</strong></p>
+                        <p>Whiskey and coffee 5.00</p>
+                        <p class="pt-5"><strong>Iced tea</strong></p>
+                        <p>Hot tea, except not hot 3.00</p>
+                        <p class="pt-5"><strong>Soda</strong></p>
+                        <p>Coke, Sprite, Fanta, etc. 2.50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-4">
+                <img src="images/menu.jpg" alt="Menu Image" class="img-fluid">
+            </div>
+        </div>
+        <div id="where" class="pt-4">
+            <h5 class="text-center my-5">
+                <span class="text-white bg-dark p-1" style="letter-spacing:3px;">WHERE TO FIND US</span>
+            </h5>
+            <p>Find us at some address at some place.</p>
+            <div class="my-4">
+                <img src="images/where.jpg" alt="Location Image" class="img-fluid">
+            </div>
+            <p><span class="text-white bg-dark p-1">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+            <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+            <form action="javascript:void(0)" class="pt-3 pb-5">
+                <div class="my-3">
+                    <input required type="text" name="name" id="name" placeholder="Name" class="c-form-control">
+                </div>
+                <div class="my-3">
+                    <input required type="text" name="number" id="number" placeholder="How many people" class="c-form-control">
+                </div>
+                <div class="my-3">
+                    <input required type="datetime-local" name="date" id="date" class="c-form-control">
+                </div>
+                <div class="my-3">
+                    <input required type="text" name="msg" id="msg" class="c-form-control" placeholder="Message \ Special requiremests">
+                </div>
+                <div class="my-3">
+                    <button class="py-2 px-4 text-white" style="border:none;outline:none;background:black;font-size:17px;">SEND MESSAGE</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="py-5 text-center" style="background:#f1f1f1">
+        <p class="my-3">Powered by <a href="https://www.w3schools.com/css" title="w3.css" target="_blank" class="text-reset" style="text-decoration:underline">w3.css</a></p>
+    </div>
+</body>
+</html>

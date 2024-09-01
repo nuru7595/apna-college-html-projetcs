@@ -1,0 +1,48 @@
+*{margin:0;padding:0;font-family:arial;box-sizing: border-box;}
+.nav{display:flex;flex-flow: row nowrap;justify-content: space-between;}
+[class^="nav-"]{padding:16px 18px;font-size:23px;margin:12px;}
+.nav-menu:hover{background:#ccc;cursor: pointer;}
+header{position:sticky;top:0;background:white;z-index: 1;}
+/* css for header */
+[class^="sec-"]{margin:50px 40px;}
+img{width:100%;height:auto;}
+.foods{display:flex;flex-wrap: wrap;}
+.food{flex:25%;padding:10px;}
+@media only screen and (max-width:768px){.food{flex:50%;}}
+@media only screen and (max-width:600px){.food{flex:100%;}}
+.description{padding:10px;text-align:center;}
+.description h1{font-weight: normal;font-size:24px;opacity: .8;}
+.description p{padding:10px 0;opacity:.7}
+.center{text-align:center;}
+.pagination{padding:15px 0}
+.pagination a {padding:10px 12px;text-decoration: none;color:black;}
+.active{background:black !important;opacity:1 !important;color:white !important;}
+.pagination a:not(.active):hover{background:#ccc;color:white;}
+hr {border-top:1px solid #ddd;margin:0 40px}
+.sec-about{text-align:center;}
+.img{max-width:700px;margin:auto;padding:30px 0;}
+.sec-about>h1{font-weight: normal;opacity:.8;font-size:26px}
+/* css for body part */
+.sec-footer{display:flex;flex-flow: wrap row;}
+[class^="footer-"]{flex:33.33%;padding:10px;}
+@media only screen and (max-width:768px){[class^="footer-"]{flex:100%;}}
+.f-title{font-weight: normal;opacity:.8;font-size: 26px;padding:0 0 30px}
+.block p{opacity:.7}
+.block p a{color:black;}
+[class^="post-"]{display:flex;flex-flow: nowrap row;padding:10px}
+.left{width:50px;}
+.right{margin-left:20px}
+.right p:first-child{margin-bottom:10px}
+.right p{font-size:15px;}
+.block hr{width:100%;margin:0;}
+[class^="post-"]:hover{background:#ccc;}
+.block span{background:black;color:white;opacity:.5;padding:2px 3px;line-height:30px;
+    font-size:13px
+}
+.side-nav{position:fixed;top:0;left:0;bottom:0;height:100%;background:white;
+    overflow:hidden;transition:.7s;
+}
+.side-nav a{display:block;padding:24px;font-size:24px;cursor:pointer;color:black;
+    text-decoration:none;white-space: nowrap;
+}
+.side-nav a:hover{background:#ccc;}

@@ -1,0 +1,14 @@
+*{font-family: 'Inconsolata', monospace;}
+.hover:hover{color:black !important;background:#ccc !important;}
+.c-header{height:600px;background-image:url("images/bg.jpg");background-size:cover;
+    background-position:center;position:relative;
+}
+.c-text-left{position:absolute;left:0;bottom:0;}
+.c-text-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+.c-text-right{position:absolute;right:0;bottom:0;}
+p{font-size:18px;}
+.nav-pills .nav-link.active{background:#616161;color:white;}
+.nav-pills .nav-link{color:black;padding:0;border-radius:0;}
+a:last-child:hover{color:green !important;}
+.c-form-control{width:100%;padding:12px;border:1px solid #ddd;font-size:18px;}
+form button:hover{color:black !important;background:#ccc !important;}

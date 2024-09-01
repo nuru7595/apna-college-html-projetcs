@@ -1,0 +1,58 @@
+*{margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;box-sizing:border-box;}
+body{background:#F1F1F1;}
+header{padding:45px;}
+header h1, header p{padding:12px 0;text-align: center;}
+header h1{text-transform: uppercase;font-weight: normal;}
+header p span{background:black;color:white;padding:3px 4px;}
+/* css for header section */
+img{width:100%;height:auto;}
+.section{display:flex;}
+.blogs{flex:65%;}
+.blog{box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin:25px;background:white;display:none;
+}
+.blog-active{display:block !important}
+.details{padding:12px;}
+.title{font-weight: normal;padding-bottom:12px;}
+.b-sub-title{padding-bottom:12px;font-size:17px;}
+.date{opacity:.6;}
+.description{padding:15px 0;opacity:.7;}
+.float::after{content:"";display:table;clear:both;}
+.f-right{float:right;padding:13px 25px;font-weight: bold;}
+button{cursor:pointer;padding:13px 25px;text-transform: uppercase;font-weight: bold;
+    border:1px solid #ccc;background:white;
+}
+button:hover{background:#ccc;}
+.c-count{border-radius: 50%;padding:3px 7px;margin-left:3px;color:white;background:black;}
+/* css for blog section */
+.sidebar{flex:35%;}
+[class^="sidebar-"]{margin:25px 25px 25px 0;background:white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.sidebar-posts h3, .sidebar-tags h3{padding:15px 10px;background:#F1F1F1;} 
+[class^="post-"]{display:flex;flex-flow: nowrap row;padding:10px;border-bottom:1px solid #ccc;}
+.left{width:50px;}
+.right{padding-left:20px;}
+.right h4{margin-top:2px;}
+.right p{margin-top:11px;}
+[class^="post-"]:hover {background:#ccc;}
+.tag{background:#F1F1F1;font-size:14px;padding:3px 6px;line-height: 35px;margin:0 2px;opacity:.7;}
+.active-tag{background:black;color:white;}
+/* css for sidebar */
+footer{background:#616161;padding:25px;}
+footer button{padding:20px;border:none;background:black;color:white;font-weight: bold;cursor: pointer;}
+[disabled]{cursor:not-allowed;opacity:.4}
+footer button:hover{color:black;background:#ccc;}
+footer p{color:white;padding:20px 0}
+footer p a{color:white;}
+@media only screen and (max-width:992px){
+    .section{flex-direction: column;}
+    [class^="sidebar-"]{margin:25px;}
+}
+.comment{margin-bottom:8px;}
+#wc{padding:12px;width:100%;border:none;border-bottom:2px solid #ddd;outline:none;}
+#wc:focus{border-bottom:3px solid #ccc;border-left:3px solid #ccc;
+    border-radius:5px;transition:.2s;
+}
+.addcomment button{margin-top:8px;padding:9px 16px;text-transform:lowercase;font-weight: normal;}
+.comments{display:none};
