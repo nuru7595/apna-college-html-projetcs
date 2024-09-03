@@ -39,16 +39,58 @@
                 color: white;
             }
             .img {
-                width: 30%;
+                max-width: 300px;
                 margin: auto;
             }
             img {
                 width: 100%;
+                border-radius: 12px;
+            }
+            .container {
+                border: 2px solid gray;
+                border-radius: 12px;
+                padding: 12px;
+                margin: 12px 0;
+                overflow: auto;
+            }
+            .form {
+                width: 40%;
+                margin: auto;
+            }
+            .form h3 {
+                text-align: center;
+            }
+            form {
+                border: 2px solid gray;
+                border-radius: 4px;
+                padding: 24px;
+            }
+            form input,
+            form select,
+            form textarea {
+                margin: 12px 0;
+                font-size: 16px;
+                padding: 8px;
+                border: 2px solid silver;
+                border-radius: 4px;
+                box-sizing: border-box;
+                outline: none;
+            }
+            #name,
+            #email,
+            form select,
+            form textarea,
+            #submit {
+                width: 100%;
+            }
+            #submit:hover {
+                background-color: white;
+                cursor: pointer;
             }
         </style>
     </head>
     <body>
-        <header>
+        <header class="container">
             <!-- Level 1 -->
             <h1>Hello World!</h1>
             <!-- Level 2 -->
@@ -58,22 +100,77 @@
                 <a href="pages/projects.html">Projects</a>
             </div>
         </header>
-        <hr />
         <main>
-            <div class="img">
-                <a href="https://facebook.com/nuru.7595" target="_main">
-                    <img src="img/nuru.jpg" alt="Nuru">
-                </a>
-            </div>
+            <section class="container">
+                <div class="img">
+                    <a href="https://facebook.com/nuru.7595" target="_main">
+                        <img src="img/nuru.jpg" alt="Nuru" />
+                    </a>
+                </div>
+            </section>
+            <!--  -->
+            <section class="container">
+                <div class="form">
+                    <h3>Contact Me</h3>
+                    <form action="">
+                        <label for="name">Enter your name:</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Name"
+                        />
+                        <label for="email">Enter your email:</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email"
+                        />
+                        <label for="">Select your gender:</label><br />
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="male"
+                            value="male"
+                        />
+                        <label for="male">Male</label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            id="female"
+                            value="female"
+                        />
+                        <label for="female">Female</label><br /><br />
+                        <label for="country">Select your country:</label>
+                        <select name="country" id="country">
+                            <option value="">Select</option>
+                            <option value="bd">Bangladesh</option>
+                            <option value="pk">Pakisthan</option>
+                            <option value="np">Nepal</option>
+                        </select>
+                        <label for="msg">Your comments here:</label>
+                        <textarea
+                            name="msg"
+                            id="msg"
+                            rows="5"
+                            placeholder="Your message.."
+                        ></textarea>
+                        <input type="submit" value="Submit" id="submit" />
+                    </form>
+                </div>
+            </section>
         </main>
         <!-- Refference -->
-        <hr />
-        <footer>
+        <footer class="container">
             <div class="ref">
                 <p>Name: Nuru</p>
+                <p>Status: Running</p>
                 <p>Level 1: 31 Aug 2024</p>
                 <p>Level 2: 01 Sep 2024</p>
                 <p>Level 3: 01 Sep 2024</p>
+                <p>Level pro 1: 03 Sep 2024</p>
+                <p>Level pro 2: -- Sep 2024</p>
                 <p>Course Source: Apna College</p>
                 <p>
                     Course Link:
